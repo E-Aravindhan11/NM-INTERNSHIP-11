@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Workshop Registration</h2>
+
+    <input type="text" id="name" placeholder="Enter Name">
+
+    <input type="email" id="email" placeholder="Enter Email">
+
+    <input type="text" id="phone" placeholder="Enter Phone Number">
+
+    <button onclick="registerParticipant()">Register</button>
+
+    <p id="message"></p>
+
+    <h3>Participant List</h3>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+
+        <tbody id="participantList">
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
